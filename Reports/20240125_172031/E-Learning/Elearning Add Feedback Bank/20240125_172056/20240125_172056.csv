@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Elearning Add Feedback Bank,Chrome 120.0.0.0,,,25-01-2024 17:21:11,25-01-2024 17:22:09,57.643s,PASSED
+,,,,,,,
+Test Cases/CMS Elearning/elearning,Chrome 120.0.0.0,,,25-01-2024 17:21:11,25-01-2024 17:22:09,57.220s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,25-01-2024 17:21:12,25-01-2024 17:21:39,27.287s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,25-01-2024 17:21:39,25-01-2024 17:21:40,0.292s,PASSED
+"navigateToUrl(""http://130.211.243.37:96/login"")",Chrome 120.0.0.0,,,25-01-2024 17:21:40,25-01-2024 17:21:45,5.304s,PASSED
+"setText(findTestObject(""Object Repository/E-Learning/Page_Login  Elearning CMS/input_email""), ""admin@indocyber.com"")",Chrome 120.0.0.0,,,25-01-2024 17:21:45,25-01-2024 17:21:49,3.934s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/E-Learning/Page_Login  Elearning CMS/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,25-01-2024 17:21:49,25-01-2024 17:21:49,0.437s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,25-01-2024 17:21:49,25-01-2024 17:21:51,1.556s,PASSED
+"click(findTestObject(""Object Repository/E-Learning/Page_Login  Elearning CMS/button_Login""))",Chrome 120.0.0.0,,,25-01-2024 17:21:51,25-01-2024 17:21:53,2.008s,PASSED
+delay(3),Chrome 120.0.0.0,,,25-01-2024 17:21:53,25-01-2024 17:21:56,3.109s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,25-01-2024 17:21:56,25-01-2024 17:21:56,0.470s,PASSED
+"click(findTestObject(""Object Repository/E-Learning/Page_Home  Elearning CMS/span_Feedback Bank""))",Chrome 120.0.0.0,,,25-01-2024 17:21:56,25-01-2024 17:21:57,0.980s,PASSED
+"navigateToUrl(""http://130.211.243.37:96/feedback"")",Chrome 120.0.0.0,,,25-01-2024 17:21:57,25-01-2024 17:21:58,0.239s,PASSED
+"click(findTestObject(""Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Tambah                              _c47226""))",Chrome 120.0.0.0,,,25-01-2024 17:21:58,25-01-2024 17:22:00,2.531s,PASSED
+"click(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Level""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,25-01-2024 17:22:00,25-01-2024 17:22:01,0.741s,PASSED
+"setText(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level""), ""Level 1"")",Chrome 120.0.0.0,,,25-01-2024 17:22:01,25-01-2024 17:22:02,0.931s,PASSED
+"sendKeys(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,25-01-2024 17:22:02,25-01-2024 17:22:03,0.724s,PASSED
+"click(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Module""))",Chrome 120.0.0.0,,,25-01-2024 17:22:03,25-01-2024 17:22:03,0.508s,PASSED
+"setText(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module""), ""Module 1"")",Chrome 120.0.0.0,,,25-01-2024 17:22:03,25-01-2024 17:22:04,1.233s,PASSED
+"sendKeys(findTestObject(""E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,25-01-2024 17:22:04,25-01-2024 17:22:05,0.671s,PASSED
+"setText(findTestObject(""Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_title""), ""Pertanyaan 1"")",Chrome 120.0.0.0,,,25-01-2024 17:22:05,25-01-2024 17:22:06,0.915s,PASSED
+"click(findTestObject(""Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_isActive""))",Chrome 120.0.0.0,,,25-01-2024 17:22:06,25-01-2024 17:22:06,0.336s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,25-01-2024 17:22:06,25-01-2024 17:22:07,0.378s,PASSED
+"click(findTestObject(""Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Save""))",Chrome 120.0.0.0,,,25-01-2024 17:22:07,25-01-2024 17:22:07,0.416s,PASSED
+"takeScreenshotAsCheckpoint(""Success_add_FeedbackBank"")",Chrome 120.0.0.0,,,25-01-2024 17:22:07,25-01-2024 17:22:08,1.184s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,25-01-2024 17:22:08,25-01-2024 17:22:09,0.431s,PASSED

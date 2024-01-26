@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Elearning Add Feedback Bank" time="30.866" tests="1" failures="0" errors="0">
+   <testsuite name="Elearning Add Feedback Bank" tests="1" failures="0" errors="0" time="30.866" skipped="0" timestamp="25-01-2024T15:28:46" hostname="0763 - DESKTOP-EDU10JT" id="Test Suites/E-Learning/Elearning Add Feedback Bank">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816"/>
+         <property name="logFiles" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171337568.png, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171342409.png, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171355113.png, keyes\keyes-Success_add_FeedbackBank.png"/>
+         <property name="hostName" value="0763 - DESKTOP-EDU10JT"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="2d329f7ef46b1caccef35cb04508321e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CMS Elearning/elearning" time="30.548" classname="Test Cases/CMS Elearning/elearning" status="PASSED">
+         <system-out><![CDATA[25-01-2024T15:28:46 - [TEST_CASE][PASSED] - Test Cases/CMS Elearning/elearning: Test Cases/CMS Elearning/elearning
+
+25-01-2024T15:28:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T15:28:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T15:28:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T15:28:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T15:28:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+25-01-2024T15:28:51 - [MESSAGE][PASSED] - Current window maximized
+
+25-01-2024T15:28:51 - [TEST_STEP][PASSED] - navigateToUrl("http://130.211.243.37:96/login"): Navigate to 'http://130.211.243.37:96/login' successfully
+
+25-01-2024T15:28:55 - [MESSAGE][PASSED] - Navigate to 'http://130.211.243.37:96/login' successfully
+
+25-01-2024T15:28:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/E-Learning/Page_Login  Elearning CMS/input_email"), "admin@indocyber.com"): Text 'admin@indocyber.com' is set on object 'Object Repository/E-Learning/Page_Login  Elearning CMS/input_email'
+
+25-01-2024T15:28:56 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/E-Learning/Page_Login  Elearning CMS/input_email'
+
+25-01-2024T15:28:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/E-Learning/Page_Login  Elearning CMS/input_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/E-Learning/Page_Login  Elearning CMS/input_password'
+
+25-01-2024T15:28:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/E-Learning/Page_Login  Elearning CMS/input_password'
+
+25-01-2024T15:28:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+25-01-2024T15:28:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171337568.png]]
+
+25-01-2024T15:28:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/E-Learning/Page_Login  Elearning CMS/button_Login")): Object: 'Object Repository/E-Learning/Page_Login  Elearning CMS/button_Login' is clicked on
+
+25-01-2024T15:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Login  Elearning CMS/button_Login' is clicked on
+
+25-01-2024T15:28:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+25-01-2024T15:29:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-01-2024T15:29:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+25-01-2024T15:29:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171342409.png]]
+
+25-01-2024T15:29:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/E-Learning/Page_Home  Elearning CMS/span_Feedback Bank")): Object: 'Object Repository/E-Learning/Page_Home  Elearning CMS/span_Feedback Bank' is clicked on
+
+25-01-2024T15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Home  Elearning CMS/span_Feedback Bank' is clicked on
+
+25-01-2024T15:29:04 - [TEST_STEP][PASSED] - navigateToUrl("http://130.211.243.37:96/feedback"): Navigate to 'http://130.211.243.37:96/feedback' successfully
+
+25-01-2024T15:29:04 - [MESSAGE][PASSED] - Navigate to 'http://130.211.243.37:96/feedback' successfully
+
+25-01-2024T15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Tambah                              _c47226")): Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Tambah                              _c47226' is clicked on
+
+25-01-2024T15:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Tambah                              _c47226' is clicked on
+
+25-01-2024T15:29:07 - [TEST_STEP][PASSED] - click(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Level"), STOP_ON_FAILURE): Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Level' is clicked on
+
+25-01-2024T15:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Level' is clicked on
+
+25-01-2024T15:29:07 - [TEST_STEP][PASSED] - setText(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level"), "Level 1"): Text 'Level 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level'
+
+25-01-2024T15:29:08 - [MESSAGE][PASSED] - Text 'Level 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level'
+
+25-01-2024T15:29:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level'
+
+25-01-2024T15:29:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Level'
+
+25-01-2024T15:29:10 - [TEST_STEP][PASSED] - click(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Module")): Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Module' is clicked on
+
+25-01-2024T15:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/expand_Choose Module' is clicked on
+
+25-01-2024T15:29:11 - [TEST_STEP][PASSED] - setText(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module"), "Module 1"): Text 'Module 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module'
+
+25-01-2024T15:29:12 - [MESSAGE][PASSED] - Text 'Module 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module'
+
+25-01-2024T15:29:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module'
+
+25-01-2024T15:29:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/Search_Module'
+
+25-01-2024T15:29:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_title"), "Pertanyaan 1"): Text 'Pertanyaan 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_title'
+
+25-01-2024T15:29:13 - [MESSAGE][PASSED] - Text 'Pertanyaan 1' is set on object 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_title'
+
+25-01-2024T15:29:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_isActive")): Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_isActive' is clicked on
+
+25-01-2024T15:29:14 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/input_isActive' is clicked on
+
+25-01-2024T15:29:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+25-01-2024T15:29:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_152738\\E-Learning\\Elearning Add Feedback Bank\\20240125_152816\\1706171355113.png]]
+
+25-01-2024T15:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Save")): Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Save' is clicked on
+
+25-01-2024T15:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Learning/Page_Feedback Bank  Elearning CMS/button_Save' is clicked on
+
+25-01-2024T15:29:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Success_add_FeedbackBank"): Taking screenshot successfully
+
+25-01-2024T15:29:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+25-01-2024T15:29:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Success_add_FeedbackBank.png]]
+
+25-01-2024T15:29:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T15:29:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2024T15:28:46 - [TEST_SUITE][PASSED] - Elearning Add Feedback Bank: Test Cases/CMS Elearning/elearning]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

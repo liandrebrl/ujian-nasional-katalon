@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+kaf_add_customer,,,,25-01-2024 14:53:34,25-01-2024 14:55:27,1m - 53.144s,PASSED
+,,,,,,,
+Test Cases/KAF Mobile/kaf_add_customer,,,,25-01-2024 14:53:35,25-01-2024 14:55:27,1m - 52.803s,PASSED
+"startApplication(""C:\Users\0763\Downloads\kaf-debug.apk"", true)",,,,25-01-2024 14:53:35,25-01-2024 14:54:26,50.986s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/textEmail""), 0)",,,,25-01-2024 14:54:26,25-01-2024 14:54:27,1.387s,PASSED
+"setText(findTestObject(""Object Repository/KAF Mobile/textEmail""), ""receptionist@kaf.co.id"", 0)",,,,25-01-2024 14:54:27,25-01-2024 14:54:30,2.344s,PASSED
+delay(3),,,,25-01-2024 14:54:30,25-01-2024 14:54:33,3.072s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/textPassword""), 0)",,,,25-01-2024 14:54:33,25-01-2024 14:54:50,17.095s,PASSED
+"setText(findTestObject(""Object Repository/KAF Mobile/textPassword""), ""R3cept!#888"", 0)",,,,25-01-2024 14:54:50,25-01-2024 14:54:50,0.308s,PASSED
+delay(3),,,,25-01-2024 14:54:50,25-01-2024 14:54:53,3.008s,PASSED
+takeScreenshot(),,,,25-01-2024 14:54:53,25-01-2024 14:54:55,1.857s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/btnLogin""), 0)",,,,25-01-2024 14:54:55,25-01-2024 14:54:56,1.287s,PASSED
+delay(15),,,,25-01-2024 14:54:56,25-01-2024 14:55:11,15.006s,PASSED
+takeScreenshot(),,,,25-01-2024 14:55:11,25-01-2024 14:55:12,0.604s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.ImageView""), 0)",,,,25-01-2024 14:55:12,25-01-2024 14:55:12,0.222s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.ImageView (1)""), 0)",,,,25-01-2024 14:55:12,25-01-2024 14:55:14,1.867s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.view.View""), 0)",,,,25-01-2024 14:55:14,25-01-2024 14:55:15,0.882s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.EditText (2)""), 0)",,,,25-01-2024 14:55:15,25-01-2024 14:55:16,1.264s,PASSED
+"setText(findTestObject(""Object Repository/KAF Mobile/android.widget.EditText (2)""), ""Andre Katalon1"", 0)",,,,25-01-2024 14:55:16,25-01-2024 14:55:17,1.206s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.EditText (3)""), 0)",,,,25-01-2024 14:55:17,25-01-2024 14:55:18,0.776s,PASSED
+"setText(findTestObject(""Object Repository/KAF Mobile/android.widget.EditText (3)""), ""Andre1"", 0)",,,,25-01-2024 14:55:18,25-01-2024 14:55:19,0.858s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.ImageView (2)""), 0)",,,,25-01-2024 14:55:19,25-01-2024 14:55:20,0.806s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.view.View (1)""), 0)",,,,25-01-2024 14:55:20,25-01-2024 14:55:22,1.938s,PASSED
+"tap(findTestObject(""Object Repository/KAF Mobile/android.widget.Button (1)""), 0)",,,,25-01-2024 14:55:22,25-01-2024 14:55:23,1.169s,PASSED
+takeScreenshot(),,,,25-01-2024 14:55:23,25-01-2024 14:55:24,0.650s,PASSED
+pressBack(),,,,25-01-2024 14:55:24,25-01-2024 14:55:24,0.178s,PASSED
+"takeScreenshotAsCheckpoint(""Success_add_data_cust"")",,,,25-01-2024 14:55:24,25-01-2024 14:55:26,2.253s,PASSED
+closeApplication(),,,,25-01-2024 14:55:26,25-01-2024 14:55:27,1.220s,PASSED

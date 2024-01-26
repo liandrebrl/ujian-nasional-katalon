@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="kaf_add_customer" time="113.144" tests="1" failures="0" errors="0">
+   <testsuite name="kaf_add_customer" tests="1" failures="0" errors="0" time="113.144" skipped="0" timestamp="25-01-2024T14:53:34" hostname="0763 - DESKTOP-EDU10JT" id="Test Suites/KAF Mobile/kaf_add_customer">
+      <properties>
+         <property name="deviceName" value="Genymobile Galaxy S7 (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308"/>
+         <property name="logFiles" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\appium.log, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\appium_error.log, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169293852.png, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169311933.png, C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169323534.png, keyes\keyes-Success_add_data_cust.png"/>
+         <property name="hostName" value="0763 - DESKTOP-EDU10JT"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Galaxy S7"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="deviceManufacturer" value="Genymobile"/>
+         <property name="deviceId" value="192.168.56.101:5555"/>
+         <property name="deviceName" value="Genymobile Galaxy S7 (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/KAF Mobile/kaf_add_customer" time="112.803" classname="Test Cases/KAF Mobile/kaf_add_customer" status="PASSED">
+         <system-out><![CDATA[25-01-2024T14:53:35 - [TEST_CASE][PASSED] - Test Cases/KAF Mobile/kaf_add_customer: Test Cases/KAF Mobile/kaf_add_customer
+
+25-01-2024T14:53:35 - [TEST_STEP][PASSED] - startApplication("C:\Users\0763\Downloads\kaf-debug.apk", true): Started app at: 'C:\Users\0763\Downloads\kaf-debug.apk'
+
+25-01-2024T14:53:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+25-01-2024T14:53:42 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+25-01-2024T14:53:42 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0763\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+25-01-2024T14:53:42 - [MESSAGE][INFO] - appium outlog: C:\Users\0763\GIT\ujian-nasional-katalon\Reports\20240125_145308\KAF Mobile\kaf_add_customer\20240125_145308\appium.log
+
+25-01-2024T14:53:42 - [MESSAGE][INFO] - appium errlog: C:\Users\0763\GIT\ujian-nasional-katalon\Reports\20240125_145308\KAF Mobile\kaf_add_customer\20240125_145308\appium_error.log
+
+25-01-2024T14:53:56 - [MESSAGE][INFO] - Appium server started on port 53,372
+
+25-01-2024T14:54:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\0763\Downloads\kaf-debug.apk'
+
+25-01-2024T14:54:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/textEmail"), 0): Tapped on element 'Object Repository/KAF Mobile/textEmail'
+
+25-01-2024T14:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/textEmail'
+
+25-01-2024T14:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KAF Mobile/textEmail"), "receptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/KAF Mobile/textEmail'
+
+25-01-2024T14:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:54:30 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/KAF Mobile/textEmail'
+
+25-01-2024T14:54:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+25-01-2024T14:54:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-01-2024T14:54:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/textPassword"), 0): Tapped on element 'Object Repository/KAF Mobile/textPassword'
+
+25-01-2024T14:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:54:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/textPassword'
+
+25-01-2024T14:54:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KAF Mobile/textPassword"), "R3cept!#888", 0): Text 'R3cept!#888' has been set to element 'Object Repository/KAF Mobile/textPassword'
+
+25-01-2024T14:54:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:54:50 - [MESSAGE][PASSED] - Text 'R3cept!#888' has been set to element 'Object Repository/KAF Mobile/textPassword'
+
+25-01-2024T14:54:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+25-01-2024T14:54:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-01-2024T14:54:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+25-01-2024T14:54:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169293852.png]]
+
+25-01-2024T14:54:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/btnLogin"), 0): Tapped on element 'Object Repository/KAF Mobile/btnLogin'
+
+25-01-2024T14:54:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:54:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/btnLogin'
+
+25-01-2024T14:54:56 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+25-01-2024T14:55:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+25-01-2024T14:55:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+25-01-2024T14:55:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169311933.png]]
+
+25-01-2024T14:55:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.ImageView"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView'
+
+25-01-2024T14:55:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView'
+
+25-01-2024T14:55:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView (1)'
+
+25-01-2024T14:55:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView (1)'
+
+25-01-2024T14:55:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.view.View"), 0): Tapped on element 'Object Repository/KAF Mobile/android.view.View'
+
+25-01-2024T14:55:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.view.View'
+
+25-01-2024T14:55:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.EditText (2)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.EditText (2)'
+
+25-01-2024T14:55:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.EditText (2)'
+
+25-01-2024T14:55:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KAF Mobile/android.widget.EditText (2)"), "Andre Katalon1", 0): Text 'Andre Katalon1' has been set to element 'Object Repository/KAF Mobile/android.widget.EditText (2)'
+
+25-01-2024T14:55:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:17 - [MESSAGE][PASSED] - Text 'Andre Katalon1' has been set to element 'Object Repository/KAF Mobile/android.widget.EditText (2)'
+
+25-01-2024T14:55:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.EditText (3)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.EditText (3)'
+
+25-01-2024T14:55:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.EditText (3)'
+
+25-01-2024T14:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KAF Mobile/android.widget.EditText (3)"), "Andre1", 0): Text 'Andre1' has been set to element 'Object Repository/KAF Mobile/android.widget.EditText (3)'
+
+25-01-2024T14:55:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:19 - [MESSAGE][PASSED] - Text 'Andre1' has been set to element 'Object Repository/KAF Mobile/android.widget.EditText (3)'
+
+25-01-2024T14:55:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView (2)'
+
+25-01-2024T14:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.ImageView (2)'
+
+25-01-2024T14:55:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.view.View (1)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.view.View (1)'
+
+25-01-2024T14:55:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.view.View (1)'
+
+25-01-2024T14:55:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/KAF Mobile/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/KAF Mobile/android.widget.Button (1)'
+
+25-01-2024T14:55:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-01-2024T14:55:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KAF Mobile/android.widget.Button (1)'
+
+25-01-2024T14:55:23 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+25-01-2024T14:55:24 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0763\\GIT\\ujian-nasional-katalon\\Reports\\20240125_145308\\KAF Mobile\\kaf_add_customer\\20240125_145308\\1706169323534.png]]
+
+25-01-2024T14:55:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+25-01-2024T14:55:24 - [MESSAGE][PASSED] - Press back button successfully
+
+25-01-2024T14:55:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Success_add_data_cust"): Screenshot is taken
+
+25-01-2024T14:55:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+25-01-2024T14:55:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Success_add_data_cust.png]]
+
+25-01-2024T14:55:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+25-01-2024T14:55:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2024T14:53:34 - [TEST_SUITE][PASSED] - kaf_add_customer: Test Cases/KAF Mobile/kaf_add_customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

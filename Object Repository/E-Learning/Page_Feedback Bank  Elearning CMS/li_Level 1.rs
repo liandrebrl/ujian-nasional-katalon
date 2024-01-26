@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Level 1</name>
+   <tag></tag>
+   <elementGuidId>38ca2045-a3ab-446b-83cc-02958a584623</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.select2-results__option.select2-results__option--highlighted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='select2-levelIdAdd-results']/li[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>608bcb42-5553-43f6-9e6b-e1c3d54d2ab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-results__option select2-results__option--highlighted</value>
+      <webElementGuid>911a768d-4992-473d-bb11-c2bbdab43912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>treeitem</value>
+      <webElementGuid>a86c6ba5-7b7d-49fb-b263-a1f170b2c0e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>96e6612c-25f3-41ed-a65e-f10b13ad9f56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Level 1</value>
+      <webElementGuid>9673ff2f-a3db-4d1e-a849-ef537f950248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-levelIdAdd-results&quot;)/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;]</value>
+      <webElementGuid>60b7acd0-4cb1-4d90-a928-49adcea5d7ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='select2-levelIdAdd-results']/li[3]</value>
+      <webElementGuid>8c055ae5-b8dd-4ae3-a93c-21711214c0a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/ul/li[3]</value>
+      <webElementGuid>5d4c1c4e-19b5-46ea-a544-552c0e0806e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Level 1' or . = 'Level 1')]</value>
+      <webElementGuid>8b3c6149-f697-4045-97af-08cece73413b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
